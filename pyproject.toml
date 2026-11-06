@@ -19,6 +19,9 @@ classifiers = [
 ]
 dependencies = []
 
+[project.scripts]
+adr-cli = "adr_cli.__main__:main"
+
 [project.urls]
 Homepage = "https://github.com/Trysac/u079-adr-cli"
 Source = "https://github.com/Trysac/u079-adr-cli"
